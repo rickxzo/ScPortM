@@ -17,19 +17,19 @@
 [
    {
       "book": "",
-      "deviation": "", (Price change %age today)
-      "high": "", (52WH)
-      "low": "", (52WL)
+      "deviation": "",  // Price change %age today
+      "high": "",       // 52WH
+      "low": "",        // 52WL
       "market_cap": "",
-      "name": "", (Tinker)
-      "np_qtr": ""
-      "pe": "", (P/E Ratio)
+      "name": "",       // Ticker
+      "np_qtr": "",
+      "pe": "",         // P/E Ratio
       "price": "",
       "qtr_profit_var": "",
       "qtr_sales_var": "",
       "roce": "",
       "roe": "",
       "sales_qtr": "",
-      "tag": "" (custom feature)
+      "tag": ""         // custom feature
    }
 ]
