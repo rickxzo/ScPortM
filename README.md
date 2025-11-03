@@ -17,7 +17,7 @@ An API to monitor & collect stock prices.
 Note: <br>
 Auth token is to restrict use by public, since this project is a freelance project. <br>
 A public use token for demonstration would be available soon. <br>
-A private token would be available by payment for use. Mail to rickxzo.perz@gmail.com for further details. <br>
+Mail to rickxzo.perz@gmail.com for further details. <br>
 
 ### __/ (index url)__ return format:
 #### JSON Structure
