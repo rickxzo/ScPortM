@@ -14,7 +14,7 @@
    Sample: using https:/<domain>/rm?q=RELIANCE removes Reliance from the list of companies to be monitored.
 
 ### __/ (index url)__ return format:
-### JSON Structure
+#### JSON Structure
 ```json
 [
    {
