@@ -14,22 +14,24 @@
    Sample: using https:/<domain>/rm?q=RELIANCE removes Reliance from the list of companies to be monitored.
 
 ### __/ (index url)__ return format:
+### JSON Structure
+```json
 [
    {
       "book": "",
-      "deviation": "",  // Price change %age today
-      "high": "",       // 52WH
-      "low": "",        // 52WL
+      "deviation": "",
+      "high": "",
+      "low": "",
       "market_cap": "",
-      "name": "",       // Ticker
+      "name": "",
       "np_qtr": "",
-      "pe": "",         // P/E Ratio
+      "pe": "",
       "price": "",
       "qtr_profit_var": "",
       "qtr_sales_var": "",
       "roce": "",
       "roe": "",
       "sales_qtr": "",
-      "tag": ""         // custom feature
+      "tag": ""
    }
 ]
