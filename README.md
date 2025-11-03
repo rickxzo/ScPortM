@@ -8,7 +8,7 @@
 1. __/ (index url)__ : Provides json output for select stock prices
 2. __/list__ : Provides dictionary of currently monitored stocks and their 'ids'
 3. __/update__: Updates stock data to current value (scheduled to run at an interval of 10 minutes by default)
-4. __/mk?q=""&tk=""__: Adds stock to be monitored. 'q' accepts tinker name of stock & 'tk' accepts company id as per screener's peer api (to be found in console)
+4. __/mk?q=""&tk=""__: Adds stock to be monitored. 'q' accepts tinker name of stock & 'tk' accepts company id as per screener's peer api (to be found in console)<br>
    Sample: using https:/<domain>/mk?q=RELIANCE&tk=2839201 adds Reliance to the list of companies to be monitored. (the tk value provided here is inaccurate)
 5. __/rm?q=""__: Removes stock to be monitored. 'q' accepts the tinker name of stock.
    Sample: using https:/<domain>/rm?q=RELIANCE removes Reliance from the list of companies to be monitored.
