@@ -13,6 +13,7 @@ An API to monitor & collect stock prices.
    Sample: using https://`<domain>`/mk?q=RELIANCE&tk=2839201&cd=`<token>` adds Reliance to the list of companies to be monitored. (the tk value provided here is inaccurate)
 6. __/rm?q=""&cd=""__: Removes stock to be monitored. 'q' accepts the tinker name of stock & 'cd' accepts auth token. <br>
    Sample: using https://`<domain>`/rm?q=RELIANCE&cd=`<token>` removes Reliance from the list of companies to be monitored.
+7. __/ck?q=""&cd=""__: Changes the price change %age alert coefficient (custom feature).
 
 Note: <br>
 Auth token is to restrict use by public, since this project is a freelance project. <br>
