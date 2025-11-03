@@ -12,3 +12,5 @@
    Sample: using https:/<domain>/mk?q=RELIANCE&tk=2839201 adds Reliance to the list of companies to be monitored. (the tk value provided here is inaccurate)
 5. __/rm?q=""__: Removes stock to be monitored. 'q' accepts the tinker name of stock. <br>
    Sample: using https:/<domain>/rm?q=RELIANCE removes Reliance from the list of companies to be monitored.
+
+### __/ (index url)__ return format:
