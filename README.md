@@ -1,9 +1,9 @@
 # ScPortM
-An API to monitor & collect stock prices.
+## An API to monitor & collect stock prices.
 
-Visit - (Link to be available soon)
+## Visit - (Link to be available soon)
 
-Documentation:
+## Documentation:
 
 1. / (index url) : Provides json output for select stock prices
 2. /list : Provides dictionary of currently monitored stocks and their 'ids'
