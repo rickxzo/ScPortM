@@ -4,7 +4,7 @@ An API to monitor & collect stock prices.
 ## Visit - https://scportm-code.onrender.com
 
 ## Documentation:
-o
+
 1. __/ (index url)__ : Provides json output for select stock prices
 2. __/list__ : Provides dictionary of currently monitored stocks and their 'ids'
 3. __/update__: Updates stock data to current value & price deviation (scheduled to run at an interval of 10 minutes by default)
