@@ -20,6 +20,7 @@ An API to monitor & collect stock prices.
 
 Note: Finding tk param for /mk is a complicated process. For testing purposes, here's a sample stock {'CPPLUS': 141593375}. <br>
 Otherwise, just note the tinker and id for a pre-existing stock, /rm it and then proceed to use the tinker and id to /mk it.
+Mail to rickxzo.perz@gmail.com for any form of inquiry.
 
 
 ### __/ (index url)__ return format:
