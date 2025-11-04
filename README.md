@@ -1,24 +1,26 @@
 # ScPortM
 An API to monitor & collect stock prices.
 
-## Visit - (Link to be available soon)
+## Visit - https://scportm-code.onrender.com
 
 ## Documentation:
-
+o
 1. __/ (index url)__ : Provides json output for select stock prices
 2. __/list__ : Provides dictionary of currently monitored stocks and their 'ids'
 3. __/update__: Updates stock data to current value & price deviation (scheduled to run at an interval of 10 minutes by default)
 4. __/background__: Updates parameters like market cap, high, low, np_qtr etc (scheduled to run at 12:30AM🕧 daily)
-5. __/mk?q=""&tk=""&cd=""__: Adds stock to be monitored. 'q' accepts tinker name of stock & 'tk' accepts company id as per screener's peer api & 'cd' accepts auth token. (to be found in console)<br>
-   Sample: using https://`<domain>`/mk?q=RELIANCE&tk=2839201&cd=`<token>` adds Reliance to the list of companies to be monitored. (the tk value provided here is inaccurate)
-6. __/rm?q=""&cd=""__: Removes stock to be monitored. 'q' accepts the tinker name of stock & 'cd' accepts auth token. <br>
-   Sample: using https://`<domain>`/rm?q=RELIANCE&cd=`<token>` removes Reliance from the list of companies to be monitored.
-7. __/ck?q=""&cd=""__: Changes the price change %age alert coefficient (custom feature).
+5. __/mk?q=""&tk=""__: Adds stock to be monitored. 'q' accepts tinker name of stock & 'tk' accepts company id as per screener's peer api. (to be found in console)<br>
+   Sample: using https://`<domain>`/mk?q=RELIANCE&tk=2839201 adds Reliance to the list of companies to be monitored. (the tk value provided here is inaccurate)
+6. __/rm?q=""__: Removes stock to be monitored. 'q' accepts the tinker name of stock <br>
+   Sample: using https://`<domain>`/rm?q=RELIANCE removes Reliance from the list of companies to be monitored.
+7. __/ck?q=""__: Changes the price change %age alert coefficient (custom feature). Note: use q=NC to get the current value.
+8. __/buy?q=""__: Marks buying of a stock at current price. 'q' accepts tinker name of stock.
+9. __/sell?q=""__: Erases buying of the last bought lot of a stock. 'q' accepts tinker name of stock.
+10. __/portfolio__: View the currently held stocks and their price at time of buying.
 
-Note: <br>
-Auth token is to restrict use by public, since this project is a freelance project. <br>
-A public use token for demonstration would be available soon. <br>
-Mail to rickxzo.perz@gmail.com for further details. <br>
+Note: Finding tk param for /mk is a complicated process. For testing purposes, here's a sample stock {'CPPLUS': 141593375}. <br>
+Otherwise, just note the tinker and id for a pre-existing stock, /rm it and then proceed to use the tinker and id to /mk it.
+
 
 ### __/ (index url)__ return format:
 #### JSON Structure
