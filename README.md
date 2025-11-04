@@ -19,7 +19,7 @@ An API to monitor & collect stock prices.
 10. __/portfolio__: View the currently held stocks and their price at time of buying.
 
 Note: Finding tk param for /mk is a complicated process. For testing purposes, here's a sample stock {'CPPLUS': 141593375}. <br>
-Otherwise, just note the tinker and id for a pre-existing stock, /rm it and then proceed to use the tinker and id to /mk it.
+Otherwise, just note the tinker and id for a pre-existing stock, /rm it and then proceed to use the tinker and id to /mk it. <br>
 Mail to rickxzo.perz@gmail.com for any form of inquiry.
 
 
